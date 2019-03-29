@@ -42,7 +42,7 @@
 .list-item{
     height: 112px;
     padding-left: 138px;
-    background: url(/img/icons.png) left top no-repeat;
+    background: url(../img/icons.png) left top no-repeat;
     margin-bottom: 39px;
     overflow: hidden;
 }
@@ -100,12 +100,24 @@
 .logos-list a{
     display: block;
     width: 200px;
-    height: 180px;
-    background: url(/img/logos.png) left top no-repeat;
+    height: 200px;
+    background: url(../img/logos.png) left top no-repeat;
     margin: 0 auto;
 }
 .logos-list .col-lg-2{
     width: 20%;
+}
+.logos-list .logos02{
+    background-position: left -200px;
+}
+.logos-list .logos03{
+    background-position: left -400px;
+}
+.logos-list .logos04{
+    background-position: left -600px;
+}
+.logos-list .logos05{
+    background-position: left -800px;
 }
 @media (max-width:1200px){
     .logos-list .col-lg-2{
